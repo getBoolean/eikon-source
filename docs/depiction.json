@@ -1,0 +1,35 @@
+{
+  "minVersion": "0.1",
+  "class": "DepictionTabView",
+  "headerImage": "",
+  "tintColor": "#c6f54a",
+  "tabs": [
+    {
+      "tabname": "Details",
+      "class": "DepictionStackView",
+      "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Eikon. Experimental prototype. Not a working emulator, and not a jailbreak tool.\n\nThe aim is Windows and Linux games on iPhone and iPad, using FEX-Emu and Wine under FEX. That does not run on a device yet.\n\nSignal Drift and Brickline are original demo sketches. They are not playable in the app.",
+          "useSpacing": true
+        },
+        { "class": "DepictionSeparatorView" },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Package",
+          "text": "com.getboolean.eikon"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Architecture",
+          "text": "iphoneos-arm64"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Install root",
+          "text": "/var/jb"
+        }
+      ]
+    }
+  ]
+}
