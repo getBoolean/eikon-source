@@ -1,32 +1,40 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Eikon — experiment</title>
-  <style>
-    :root { color-scheme: dark; }
-    body {
-      margin: 0;
-      font-family: "Iowan Old Style", Palatino, Georgia, serif;
-      background: #12140f;
-      color: #f3f1e6;
-    }
-    main { max-width: 42rem; margin: 0 auto; padding: 2.5rem 1.25rem 4rem; }
-    h1 { font-weight: 600; letter-spacing: -0.03em; margin-bottom: 0.25rem; }
-    .kicker { color: #c6f54a; font-family: ui-sans-serif, system-ui, sans-serif; font-size: 0.8rem; letter-spacing: 0.14em; text-transform: uppercase; }
-    p, li { line-height: 1.5; }
-    code, a { color: #8eb6ff; }
-    .warn { color: #ffb4a2; }
-  </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Eikon source</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { font: 16px/1.5 -apple-system, system-ui, sans-serif; max-width: 40rem; margin: 3rem auto; padding: 0 1rem; }
+  h1 { margin-bottom: 0.25rem; }
+  code { background: rgba(128,128,128,0.15); padding: 0.1rem 0.35rem; border-radius: 4px; }
+  .add { display: inline-block; margin: 0.5rem 0; padding: 0.5rem 0.9rem; border-radius: 8px;
+         background: #c6f54a; color: #111; text-decoration: none; font-weight: 600; }
+  ul { padding-left: 1.2rem; }
+  .muted { color: gray; }
+</style>
 </head>
 <body>
-  <main>
-    <p class="kicker">Experiment</p>
-    <h1>Eikon</h1>
-    <p>A prototype toward an iPhone and iPad app that would run Windows and Linux games. It is not a working emulator, and it is not a jailbreak tool.</p>
-    <p class="warn">Nothing here runs a game on a device. This page is not a live Sileo source.</p>
-    <p>The intended stack, not yet integrated, is <a href="https://github.com/FEX-Emu/FEX">FEX-Emu</a> for Linux x86-64 and <a href="https://gitlab.winehq.org/wine/wine">Wine</a> under FEX for Windows. The bundled demos, Signal Drift and Brickline, are original sketches.</p>
-  </main>
+<h1>Eikon</h1>
+<p>An early prototype that reports whether JIT is usable and shows device status.</p>
+
+<h2>Add this source in Sileo</h2>
+<p>URL: <code>https://getboolean.github.io/eikon-source/</code></p>
+<p><a class="add" href="sileo://source/https://getboolean.github.io/eikon-source/">Add to Sileo</a></p>
+
+<h2>Package</h2>
+<p>Version 0.1.0, released 2026-09-27. For iOS 15.0 or later on Dopamine (rootless).</p>
+
+<h2>Other install methods</h2>
+<p class="muted">The TrollStore build (.tipa, needs Developer Mode on iOS 16+) and the AltStore build (.ipa) are on the GitHub release, not in this source.</p>
+
+<h2>Links</h2>
+<ul>
+  <li><a href="https://github.com/getBoolean/eikon">Source repository</a></li>
+  <li><a href="https://github.com/getBoolean/eikon/releases/tag/v0.1.0">This release</a></li>
+  <li><a href="https://github.com/getBoolean/eikon/blob/v0.1.0/LICENSE">License</a></li>
+  <li><a href="https://github.com/getBoolean/eikon/blob/v0.1.0/THIRD_PARTY_NOTICES.md">Third-party notices</a></li>
+</ul>
 </body>
 </html>

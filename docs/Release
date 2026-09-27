@@ -1,21 +1,17 @@
 Origin: Eikon
 Label: Eikon
 Suite: stable
-Version: 1.0
+Version: 0.1.0
 Codename: ios
 Architectures: iphoneos-arm64
 Components: main
-Description: Eikon. Experimental prototype. Not a working emulator, and not a jailbreak tool.
-Date: Sun, 27 Sep 2026 03:48:43 +0000
-MD5Sum
- 36d518254e19d61ce850c6fa6a2de81f 825 Packages
- 695b0263cae56a258bb199fa9d2dcb38 565 Packages.bz2
- 00dfcb5dafe0c80f869ec7099bdc3b06 510 Packages.gz
-SHA1
- 5469eb948454805d60494a80d9d3e125d9141c73 825 Packages
- 10a19c80f074c7de8e3cf258a0cb03670429a9ad 565 Packages.bz2
- eded3099e1b8c299d518d0d21ea4e91782d3302d 510 Packages.gz
-SHA256
- f121dd3a43f5c38ada903c1167c9e63d2adb9fa3e3ea8ce193839962ab54f98c 825 Packages
- 806229e97fb8b2ab9a6b77220a66695942631f17456eac5b0de57bffbcf0d4f6 565 Packages.bz2
- 74d5d8ee1c4131ca87c6d1cf6c59bf573691ac429fa31ea1d28ba58cb9652c54 510 Packages.gz
+Description: Eikon Sileo source
+Date: Sun, 27 Sep 2026 22:19:41 GMT
+MD5Sum:
+ f8747bd79b7cab18408d0db4df2bb255 865 Packages
+ dff27ba60de0b9b02e4d7446527ef3a7 564 Packages.xz
+ f043bed65d4d4311482e0583d128675f 493 Packages.zst
+SHA256:
+ cd64cda808b36d1e2c54331ec7684333865c652e1c72477b3e58470635dbb087 865 Packages
+ 721395a153d978ddfd38e283de6c49b7e72663bece54f51888b1febe0d3aee58 564 Packages.xz
+ 8981f32c08ee0a36520f1d44572a40ed4ef1d2b0d07474868b9374ce2a6b42dc 493 Packages.zst

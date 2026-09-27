@@ -1,20 +1,20 @@
 Package: com.getboolean.eikon
-Version: 1.0.0
-Architecture: iphoneos-arm64
-Maintainer: getBoolean <https://github.com/getBoolean>
-Installed-Size: 1168
-Depends: firmware (>= 15.0)
-Filename: debs/com.getboolean.eikon_1.0.0_iphoneos-arm64.deb
-Size: 388546
-MD5sum: e4d4cdb7f7c1c49630f9ba13a218f3dd
-SHA1: d925587b02d6a02bd77026a3617b227f4fda59c7
-SHA256: 6100a76fc1c8f0455bd1cb3ad020765734527a4e841b4db7ea03352a54bce2b4
-Section: Games
-Description: Eikon. Experimental prototype. Not a working emulator. The files in this package are sketches, not games it runs. Not a jailbreak tool and not a tweak.
-Tag: role::user
-Author: getBoolean
-Depiction: https://getboolean.github.io/eikon-source/
-Icon: https://getboolean.github.io/eikon-source/icon.png
 Name: Eikon
-Sileodepiction: https://getboolean.github.io/eikon-source/depiction.json
+Version: 0.1.0
+Architecture: iphoneos-arm64
+Depends: firmware (>= 15.0)
+Section: Games
+Maintainer: getBoolean <https://github.com/getBoolean>
+Author: getBoolean
+Installed-Size: 516
+Homepage: https://github.com/getBoolean/eikon
+Icon: https://getboolean.github.io/eikon-source/icon.png
+Depiction: https://getboolean.github.io/eikon-source/
+SileoDepiction: https://getboolean.github.io/eikon-source/depiction.json
+Description: An early prototype that reports whether JIT is usable and shows device status. Not a working emulator yet.
+Filename: https://github.com/getBoolean/eikon/releases/download/v0.1.0/com.getboolean.eikon_0.1.0_iphoneos-arm64.deb
+Size: 147320
+MD5sum: d88d3cf13eeafb3850f110f83483edb0
+SHA1: 469f486a953e9ae1ab0280f7877e94ed295e6697
+SHA256: 79b9aec637220b7ed13bbaee88c5f43a4c2a1922cf14e8ac23abddfd62581b6a
 

@@ -1,33 +1,68 @@
 {
-  "minVersion": "0.1",
   "class": "DepictionTabView",
-  "headerImage": "",
+  "minVersion": "0.4",
   "tintColor": "#c6f54a",
   "tabs": [
     {
-      "tabname": "Details",
       "class": "DepictionStackView",
+      "tabname": "Details",
       "views": [
         {
           "class": "DepictionMarkdownView",
-          "markdown": "Eikon. Experimental prototype. Not a working emulator, and not a jailbreak tool.\n\nThe aim is Windows and Linux games on iPhone and iPad, using FEX-Emu and Wine under FEX. That does not run on a device yet.\n\nSignal Drift and Brickline are original demo sketches. They are not playable in the app.",
-          "useSpacing": true
-        },
-        { "class": "DepictionSeparatorView" },
-        {
-          "class": "DepictionTableTextView",
-          "title": "Package",
-          "text": "com.getboolean.eikon"
+          "markdown": "An early prototype that reports whether JIT is usable and shows device status. Not a working emulator yet.\n\nThis is an early prototype. It shows how the app was installed, whether JIT is usable, and a device report you can share. It does not run anything yet."
         },
         {
           "class": "DepictionTableTextView",
-          "title": "Architecture",
-          "text": "iphoneos-arm64"
+          "title": "Version",
+          "text": "0.1.0"
         },
         {
           "class": "DepictionTableTextView",
-          "title": "Install root",
-          "text": "/var/jb"
+          "title": "Released",
+          "text": "2026-09-27"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "title": "Compatibility",
+          "text": "iOS 15.0 or later, Dopamine (rootless)"
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "On Dopamine, JIT is enabled automatically when \"Allow JIT in Apps\" is on."
+        },
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "The TrollStore build (.tipa) is on the release page, not in this source. On iOS 16 and later it needs Developer Mode on."
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "Source",
+          "action": "https://github.com/getBoolean/eikon"
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "This release",
+          "action": "https://github.com/getBoolean/eikon/releases/tag/v0.1.0"
+        }
+      ]
+    },
+    {
+      "class": "DepictionStackView",
+      "tabname": "Licenses",
+      "views": [
+        {
+          "class": "DepictionMarkdownView",
+          "markdown": "Licensed under GPL-3.0-or-later."
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "License",
+          "action": "https://github.com/getBoolean/eikon/blob/v0.1.0/LICENSE"
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "title": "Third-party notices",
+          "action": "https://github.com/getBoolean/eikon/blob/v0.1.0/THIRD_PARTY_NOTICES.md"
         }
       ]
     }
