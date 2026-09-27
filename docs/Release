@@ -1,0 +1,21 @@
+Origin: Eikon
+Label: Eikon
+Suite: stable
+Version: 1.0
+Codename: ios
+Architectures: iphoneos-arm64
+Components: main
+Description: Eikon. Experimental prototype. Not a working emulator, and not a jailbreak tool.
+Date: Sun, 27 Sep 2026 03:48:43 +0000
+MD5Sum
+ 36d518254e19d61ce850c6fa6a2de81f 825 Packages
+ 695b0263cae56a258bb199fa9d2dcb38 565 Packages.bz2
+ 00dfcb5dafe0c80f869ec7099bdc3b06 510 Packages.gz
+SHA1
+ 5469eb948454805d60494a80d9d3e125d9141c73 825 Packages
+ 10a19c80f074c7de8e3cf258a0cb03670429a9ad 565 Packages.bz2
+ eded3099e1b8c299d518d0d21ea4e91782d3302d 510 Packages.gz
+SHA256
+ f121dd3a43f5c38ada903c1167c9e63d2adb9fa3e3ea8ce193839962ab54f98c 825 Packages
+ 806229e97fb8b2ab9a6b77220a66695942631f17456eac5b0de57bffbcf0d4f6 565 Packages.bz2
+ 74d5d8ee1c4131ca87c6d1cf6c59bf573691ac429fa31ea1d28ba58cb9652c54 510 Packages.gz
