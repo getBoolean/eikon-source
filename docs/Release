@@ -1,17 +1,17 @@
 Origin: Eikon
 Label: Eikon
 Suite: stable
-Version: 0.2.1
+Version: 0.2.2
 Codename: ios
 Architectures: iphoneos-arm64
 Components: main
 Description: Eikon Sileo source
-Date: Mon, 28 Sep 2026 08:38:27 GMT
+Date: Mon, 28 Sep 2026 09:41:01 GMT
 MD5Sum:
- 1a33ac47f58160e5b7a83aa018dd9307 883 Packages
- a1a87a899e58f0997735bcd75ffba415 576 Packages.xz
- 859ada34a8245f41ae76660bbc1c0155 498 Packages.zst
+ 28542d8cd2de3c7da582421312a5b551 946 Packages
+ eacf9486bd938d8a255840e5d5b97605 588 Packages.xz
+ 7266a891dc1c79c4824e039436c58861 519 Packages.zst
 SHA256:
- f01fdc0fb8200067d77e094dc30237c9779e12a3c65902b6ebb1aa3edf18a009 883 Packages
- a664e1ada749bfdfd7517826654987c8fed3d9a39602155e08d3d10dacc6f808 576 Packages.xz
- b9c2690f5aeedb60c8e451101393b56ec3070a8e4169be6ff2ac898590295a61 498 Packages.zst
+ 4eb31c24732460068a0df011fdd5c3fcafdea4cf70644c96c49560fca70029bf 946 Packages
+ e553bcb7eb6e7b0b1d61a4a0f6b9326afc5bcb249c965b171c036bb2a2ca9ddf 588 Packages.xz
+ 2153672d45216cf7ce92bf20f56a7ea15a6d03c3c8567f9a0a2b2acba24f8995 519 Packages.zst
