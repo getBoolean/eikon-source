@@ -1,6 +1,6 @@
 Package: com.getboolean.eikon.rootless
 Name: Eikon
-Version: 0.2.3
+Version: 0.3.0
 Architecture: iphoneos-arm64
 Depends: firmware (>= 15.0)
 Conflicts: com.getboolean.eikon
@@ -8,15 +8,15 @@ Replaces: com.getboolean.eikon
 Section: Games
 Maintainer: getBoolean <https://github.com/getBoolean>
 Author: getBoolean
-Installed-Size: 516
+Installed-Size: 2516
 Homepage: https://github.com/getBoolean/eikon
 Icon: https://getboolean.github.io/eikon-source/icon.png
 Depiction: https://getboolean.github.io/eikon-source/
 SileoDepiction: https://getboolean.github.io/eikon-source/depiction.json
 Description: An early prototype that reports whether JIT is usable and shows device status. Not a working emulator yet.
-Filename: https://github.com/getBoolean/eikon/releases/download/v0.2.3/com.getboolean.eikon.rootless_0.2.3_iphoneos-arm64.deb
-Size: 147816
-MD5sum: 2e41775485633e069b078bac258666a7
-SHA1: 0419b1c9b0031217a847e1b9b2ccb28a8414880e
-SHA256: eb4b9c7cdd7e53fb95d418e13eb036009f652cb4d7b036bcd0a11eb752309c53
+Filename: https://github.com/getBoolean/eikon/releases/download/v0.3.0/com.getboolean.eikon.rootless_0.3.0_iphoneos-arm64.deb
+Size: 737156
+MD5sum: a44c81fcb378d4e0e5828db5b214eb35
+SHA1: 466d181128bbaadc54fc972f1644574262f38ff5
+SHA256: dbae5d358bba91f117e65fd04608ea792039043ea3fde16732717fff95cecdcf
 

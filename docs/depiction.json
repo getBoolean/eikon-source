@@ -14,12 +14,12 @@
         {
           "class": "DepictionTableTextView",
           "title": "Version",
-          "text": "0.2.3"
+          "text": "0.3.0"
         },
         {
           "class": "DepictionTableTextView",
           "title": "Released",
-          "text": "2026-09-28"
+          "text": "2026-10-01"
         },
         {
           "class": "DepictionTableTextView",
@@ -42,7 +42,7 @@
         {
           "class": "DepictionTableButtonView",
           "title": "This release",
-          "action": "https://github.com/getBoolean/eikon/releases/tag/v0.2.3"
+          "action": "https://github.com/getBoolean/eikon/releases/tag/v0.3.0"
         }
       ]
     },
@@ -57,12 +57,12 @@
         {
           "class": "DepictionTableButtonView",
           "title": "License",
-          "action": "https://github.com/getBoolean/eikon/blob/v0.2.3/LICENSE"
+          "action": "https://github.com/getBoolean/eikon/blob/v0.3.0/LICENSE"
         },
         {
           "class": "DepictionTableButtonView",
           "title": "Third-party notices",
-          "action": "https://github.com/getBoolean/eikon/blob/v0.2.3/THIRD_PARTY_NOTICES.md"
+          "action": "https://github.com/getBoolean/eikon/blob/v0.3.0/THIRD_PARTY_NOTICES.md"
         }
       ]
     }
